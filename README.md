@@ -305,10 +305,6 @@ Fotos do circuito montado e da tela do supervisório (pasta `Imagens_ElipseE3_In
   <img src="Imagens_ElipseE3_Interface/Foto_Circuito_4.jpg" width="45%" />
 </p>
 
-> Se você for adicionar mais fotos (dos LEDs verde/amarelo/vermelho isolados ou da tela do Elipse E3), basta salvá-las dentro de `Imagens_ElipseE3_Interface/` e referenciá-las aqui do mesmo jeito.
-
----
-
 ## ✅ Resultados
 
 Os testes práticos confirmaram que os três estados do sistema (normal / alerta / emergência) refletem corretamente entre o circuito real e a interface do Elipse E3:
