@@ -2,7 +2,7 @@
 
 Projeto desenvolvido para a disciplina de **Redes Industriais** (IFSC), com o objetivo de implementar uma comunicação **MODBUS RTU** entre um **PC** (mestre, rodando o supervisório **Elipse E3**) e um **Arduino Uno** (escravo), realizando a aquisição de sinais analógicos/digitais e o controle automático de um sistema de resfriamento baseado em temperatura.
 
->  Autores: João Emiliano Helrighel Freitas
+>  Autor: João Emiliano Helrighel Freitas
 > Disciplina: Redes Industriais 
 
 ---
