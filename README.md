@@ -1,9 +1,9 @@
-# 🌡️ Comunicação MODBUS RTU entre Arduino e Elipse E3 — Sistema Supervisório de Temperatura
+# Comunicação MODBUS RTU entre Arduino e Elipse E3 — Sistema Supervisório de Temperatura
 
 Projeto desenvolvido para a disciplina de **Redes Industriais** (IFSC), com o objetivo de implementar uma comunicação **MODBUS RTU** entre um **PC** (mestre, rodando o supervisório **Elipse E3**) e um **Arduino Uno** (escravo), realizando a aquisição de sinais analógicos/digitais e o controle automático de um sistema de resfriamento baseado em temperatura.
 
-> 👨‍💻 Autores: João Emiliano Helrighel Freitas e Guilherme Tomé
-> 📚 Disciplina: Redes Industriais — Prof. Heron Ávila
+>  Autores: João Emiliano Helrighel Freitas
+> Disciplina: Redes Industriais 
 
 ---
 
@@ -293,7 +293,7 @@ A partir dessas tags, foi construída a tela de supervisório com: medidor de te
 
 ---
 
-## 📸 Galeria
+## Galeria
 
 Fotos do circuito montado e da tela do supervisório (pasta `Imagens_ElipseE3_Interface/`):
 
@@ -317,27 +317,12 @@ Os testes práticos confirmaram que os três estados do sistema (normal / alerta
 2. **Teste 2 – Alerta:** LED amarelo aceso, ventoinha operando entre ~28% e ~78% de PWM (ajustável via potenciômetro).
 3. **Teste 3 – Emergência:** LED vermelho aceso, ventoinha travada em 100% de PWM, controle manual via potenciômetro desativado para priorizar o resfriamento.
 
-## 🚧 Dificuldades e aprendizados
-
-- Configuração inicial do driver MODBUS RTU no Elipse E3.
-- Mapeamento correto dos registradores (Discrete Inputs, Input Registers e Holding Registers) e sincronismo entre supervisório e Arduino.
-- Consolidação de conceitos de **protocolos industriais**, **automação** e **sistemas supervisórios**.
-
-## 💡 Sugestões de melhorias futuras
-
-- Integração com banco de dados para registro histórico das medições e comandos (data logging).
-- Geração de alarmes e relatórios automáticos no supervisório.
-- Substituição da comunicação serial RS-232/USB por RS-485 para maior robustez em ambientes industriais reais.
-
----
-
-## 📚 Referências
+## Referências
 
 - Adafruit, *DHT-sensor-library*, GitHub, 2013. Disponível em: https://github.com/adafruit/DHT-sensor-library
 - Vishay, *IRLZ44 — Power MOSFET*, Datasheet S21-1045 Rev. D, 2021. Disponível em: https://www.vishay.com/docs/91328/irlz44.pdf
 - Tekon Electronics, *Protocolo de comunicação Modbus*. Disponível em: https://www.tekonelectronics.com/pt/media/tekon-blog/protocolo-comunicacao-modbus/
 
----
 
 ## 👥 Autores
 
